@@ -78,9 +78,9 @@ Deploy headless AI agents to test content, balance mechanics, and discover edge 
 ## Roadmap
 
 ### Q1 2026
-- SDK TypeScript Client (npm)
-- API Service Launch
-- License System
+- [x] SDK TypeScript Client (npm)
+- [x] API Service Launch
+- [ ] License System
 
 ### Q2 2026
 - Python & Rust SDKs
