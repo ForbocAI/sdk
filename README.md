@@ -119,6 +119,19 @@ console.log(response.dialogue);
 ---
 
 **ᚠ ᛫ ᛟ ᛫ ᚱ ᛫ ᛒ ᛫ ᛟ ᛫ ᚲ**
+ 
+ ## Developers
+ 
+ `Dev_Ops // Releáse_Cycles`
+ 
+ To redeploy the SDK to NPM:
+ 
+ 1.  **Bump Version**: Update `version` in `package.json`.
+ 2.  **Build**: `npm run build` (Generates `dist/`).
+ 3.  **Publish**: `npm publish --access public`.
+ 
+ > **Note**: You must be authenticated with `npm adduser` or have an `.npmrc` with a valid token.
+
 
 ## License
 

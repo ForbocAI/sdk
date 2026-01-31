@@ -13,6 +13,8 @@ try {
 > Connecting into the Neuro-Symbolic Grid...
 > Status: ONLINE
 
+Run 'npx forbocai api status' to verify connection.
+
 Welcome to the Future of NPC Intelligence.
 `;
     fs.writeSync(tty, msg);
