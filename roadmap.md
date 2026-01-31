@@ -10,7 +10,7 @@
 
 The **ForbocAI SDK** is the foundational toolkit enabling game developers and application builders to create truly autonomous AI-powered characters. Unlike traditional NPC systems that rely on scripted behaviors, our SDK provides persistent memory, validated actions, and portable AI identities—all powered by local-first inference.
 
-**Architecture**: A lightweight, single-package (`forbocai`) library containing the Core Logic, Inference Adapters, and Agent behaviors. Designed for easy installation and strict version compatibility.
+**Architecture**: A lightweight, single-package (`forbocai`) library containing the **Bundled SLM Runtime**, Core Logic, and Agent behaviors. The API is strictly for licensing and asset persistence.
 
 ---
 
@@ -29,7 +29,7 @@ The **ForbocAI SDK** is the foundational toolkit enabling game developers and ap
 ## Core Technology
 
 ### Cortex — Local-First Inference
-Run quantized language models directly in-browser or on-device. Zero API costs. Zero latency. Full privacy.
+Run quantized SLMs directly on-device. Zero API costs. Zero latency. Full privacy.
 
 ### Agent — Autonomous Entities
 Create NPCs with true personalities, emotional states, and dynamic relationships that evolve based on player interactions.

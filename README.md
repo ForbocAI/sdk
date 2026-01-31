@@ -23,9 +23,9 @@ Autonomous AI for game NPCs.
 
 `Córe_Módules // SDK_Init`
 
-The **ForbocAI SDK** is a toolkit for creating autonomous AI-powered NPCs in games. It provides:
+The **ForbocAI SDK** is an **Engine-Agnostic** toolkit for creating autonomous AI-powered NPCs in any game or application. It runs anywhere (Node, Browser, Python, Rust).
 
-- **Local Inference** — Run quantized SLMs in your environment
+- **Local SLM Inference Cortex** — Run quantized Small Language Models in your environment
 - **Autonomous NPCs** — Create agents with persona, memory, and validated actions
 - **Persistent Memory** — RAG pipeline for semantic recall across sessions
 - **Portable Souls** — Export agent state to IPFS for cross-application use
@@ -87,7 +87,7 @@ console.log(response.dialogue);
 
 | Module | Description |
 |--------|-------------|
-| **Cortex** | Local SLM inference engine |
+| **Cortex** | Local SLM inference engine (Engine Agnostic) |
 | **Agent** | Autonomous entities with persona, state, memory |
 | **Memory** | RAG pipeline for persistent semantic recall |
 | **Bridge** | Neuro-symbolic action validation |
