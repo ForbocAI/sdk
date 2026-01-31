@@ -5,3 +5,4 @@ test-install
 *.tgz
 .npmrc
 .DS_Store
+package-lock.json
