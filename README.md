@@ -41,7 +41,7 @@ The **ForbocAI SDK** is a toolkit for creating autonomous AI-powered NPCs in gam
 
 ```bash
 # JavaScript/TypeScript
-npm install @forbocai/sdk
+npm install forbocai
 
 # Python
 pip install forbocai
@@ -57,7 +57,7 @@ cargo add forbocai
 `Quíck_Stárt // Éxample`
 
 ```typescript
-import { Cortex, Agent } from '@forbocai/sdk';
+import { Cortex, Agent } from 'forbocai';
 
 // Córtex_Init // Loćal_Inférence
 const cortex = await Cortex.init({ model: 'smollm2-135m' });

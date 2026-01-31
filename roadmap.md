@@ -10,6 +10,8 @@
 
 The **ForbocAI SDK** is the foundational toolkit enabling game developers and application builders to create truly autonomous AI-powered characters. Unlike traditional NPC systems that rely on scripted behaviors, our SDK provides persistent memory, validated actions, and portable AI identities—all powered by local-first inference.
 
+**Architecture**: A lightweight, single-package (`forbocai`) library containing the Core Logic, Inference Adapters, and Agent behaviors. Designed for easy installation and strict version compatibility.
+
 ---
 
 ## Market Opportunity
