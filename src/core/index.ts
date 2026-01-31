@@ -12,7 +12,7 @@ export interface CortexConfig {
     /** Optional overrides for model parameters */
     temperature?: number; // Default 0.7
     maxTokens?: number;   // Default 1024
-    gpu?: boolean;        // Default true (uses WebLLM/WebGPU)
+    gpu?: boolean;        // Default true
 }
 
 export interface CortexStatus {
